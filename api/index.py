@@ -1,8 +1,8 @@
 from flask import Flask, request, jsonify
-# import pickle
-# import numpy as np
+import pickle
+import numpy as np
 
-# model = pickle.load(open('./model1.pkl','rb'))
+model = pickle.load(open('./model1.pkl','rb'))
 
 app = Flask(__name__)
 
